@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uImageResizer", "uImageResizer.csproj", "{0DB0A3B1-D077-4130-992C-D9FBB015C6AF}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "www1", "http://localhost:7957", "{DE55EC4F-68BD-4140-B8E5-BAFFE347819A}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_7957"
+		Debug.AspNetCompiler.PhysicalPath = "..\www\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7957\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_7957"
+		Release.AspNetCompiler.PhysicalPath = "..\www\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7957\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\www\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DB0A3B1-D077-4130-992C-D9FBB015C6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB0A3B1-D077-4130-992C-D9FBB015C6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB0A3B1-D077-4130-992C-D9FBB015C6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB0A3B1-D077-4130-992C-D9FBB015C6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE55EC4F-68BD-4140-B8E5-BAFFE347819A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE55EC4F-68BD-4140-B8E5-BAFFE347819A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE55EC4F-68BD-4140-B8E5-BAFFE347819A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE55EC4F-68BD-4140-B8E5-BAFFE347819A}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
